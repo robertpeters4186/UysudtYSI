@@ -17,10 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
       - name: Install probe-image-size
         run: npm i probe-image-size@7.2.3 --ignore-scripts
 
